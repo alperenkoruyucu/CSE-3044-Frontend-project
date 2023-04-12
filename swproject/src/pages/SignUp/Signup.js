@@ -2,6 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './SignUp.css';
+import React from 'react';
 function Signup() {
   return (
     <div className='SignUpPage'>
@@ -11,14 +12,14 @@ function Signup() {
         <div className='SignUpContainer'>
             <Form>
                 <h1>Kişisel Bilgilerim</h1>
-                <label for="inlineCheckbox1">Choose your gender:</label>
+                <label htmlfor="inlineCheckbox1">Choose your gender:</label>
                 <div className="form-check form-check-inline">
                     <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                    <label className="form-check-label" for="inlineRadio1">Male</label>
+                    <label className="form-check-label" htmlfor="inlineRadio1">Male</label>
                 </div>
                 <div className="form-check form-check-inline">
                     <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
-                    <label className="form-check-label" for="inlineRadio1">Female</label>
+                    <label className="form-check-label" htmlfor="inlineRadio1">Female</label>
                 </div>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Kilo</Form.Label>
