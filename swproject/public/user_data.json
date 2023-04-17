@@ -1,0 +1,11 @@
+{
+    "name": "Ali",
+    "surname": "Yılmaz",
+    "email": "ali.yilmaz@example.com",
+    "gender": "Erkek",
+    "birthDate": "01/01/1990",
+    "height": 180,
+    "weight": 80,
+    "goalWeight": 75
+  }
+  

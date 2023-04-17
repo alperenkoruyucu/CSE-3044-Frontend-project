@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Izgara Tavuk",
+    "description": "Tavuk butu, sebzeler ve baharatlar ile ızgara yapılmış lezzetli bir yemek",
+    "image": "https://picsum.photos/id/237/200/300",
+    "calories": 350,
+    "protein": 25,
+    "fat": 10,
+    "carbohydrates": 40
+  },
+  {
+    "id": 2,
+    "name": "Mevsim Salatası",
+    "description": "Taze sebzelerin ve baharatların harmanlanmasıyla oluşan bir salata",
+    "image": "https://picsum.photos/id/227/200/300",
+    "calories": 200,
+    "protein": 8,
+    "fat": 5,
+    "carbohydrates": 30
+  },
+  {
+    "id": 3,
+    "name": "Mercimek Çorbası",
+    "description": "Kırmızı mercimek, sebzeler ve baharatların harmanlanmasıyla yapılmış sıcacık bir çorba",
+    "image": "https://picsum.photos/id/217/200/300",
+    "calories": 150,
+    "protein": 6,
+    "fat": 3,
+    "carbohydrates": 25
+  },
+  {
+    "id": 4,
+    "name": "Kıymalı Makarna",
+    "description": "Taze makarna, kıyma ve baharatlar ile hazırlanmış lezzetli bir yemek",
+    "image": "https://picsum.photos/id/27/200/300",
+    "calories": 450,
+    "protein": 18,
+    "fat": 15,
+    "carbohydrates": 60
+  },
+  {
+    "id": 5,
+    "name": "Köfte",
+    "description": "Taze kıyma, baharatlar ve sebzeler ile yapılmış lezzetli bir köfte",
+    "image": "https://picsum.photos/id/23/200/300",
+    "calories": 300,
+    "protein": 20,
+    "fat": 10,
+    "carbohydrates": 30
+  },
+  {
+    "id": 6,
+    "name": "Tavuklu Noodle",
+    "description": "Taze sebzeler ve tavuk dilimleri ile yapılmış lezzetli bir noodle",
+    "image": "https://picsum.photos/id/337/200/300",
+    "calories": 400,
+    "protein": 15,
+    "fat": 12,
+    "carbohydrates": 50
+  }
+]
