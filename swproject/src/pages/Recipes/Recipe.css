@@ -1,0 +1,20 @@
+.input-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;        
+    width: 100%;
+    position: fixed;
+    
+}
+
+.input{
+    width: 40%;    
+    position:relative;
+}
+
+.select{          
+    display: flex;
+    flex-direction: row;
+    justify-content: center;           
+    position: flex;    
+}
