@@ -47,6 +47,7 @@ function App() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
+                  gap:"5px",
                   marginTop: "80px",
                   width: "100%"
                 }}
