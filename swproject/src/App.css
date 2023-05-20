@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.spectrum-background {
+  background:
+      linear-gradient(orange, transparent),
+      linear-gradient(to top left, rgb(170, 220, 225), transparent),
+      linear-gradient(to top right, rgb(218, 30, 190), transparent);
+  background-blend-mode: screen;
+}
+
 
 .App-logo {
   height: 40vmin;

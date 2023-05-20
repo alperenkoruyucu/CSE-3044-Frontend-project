@@ -11,18 +11,22 @@ function Navbarx() {
       <Container>
         <Navbar.Brand style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
           <FontAwesomeIcon icon={faHome} style={{marginRight: "10px"}} />
-          Yemek Tarifleri
+          Ingredients
         </Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
              <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
                 <FontAwesomeIcon icon={faBook} style={{marginRight: "10px"}} />
-                İçindekiler
+                Recipes
             </Nav.Link>
             <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
                 <FontAwesomeIcon icon={faUsers} style={{marginRight: "10px"}} />
                 Profile
+            </Nav.Link>
+            <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
+                <FontAwesomeIcon icon={faUsers} style={{marginRight: "10px"}} />
+                Log out
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
