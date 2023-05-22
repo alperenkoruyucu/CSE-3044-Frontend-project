@@ -14,14 +14,15 @@ function App() {
       <div className="spectrum-background">
         <div className="row">
           <Navbarx />
-        </div>
-        <Router>
+          <Router>
           <Routes>
-            <Route exact path="/Signup" element={<Signup />} />
-            <Route exact path="/Profile" element={<ProfilePage />} />
-            <Route exact path="/Recipe" element={<Recipe />} />
+            <Route exact path="/signup" element={<Signup />} />
+            <Route exact path="/profile" element={<ProfilePage />} />
+            <Route exact path="/recipes" element={<Recipe />} />
           </Routes>
         </Router>
+        </div>
+       
       </div>
     </div>
   );

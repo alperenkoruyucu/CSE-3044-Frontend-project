@@ -27,7 +27,7 @@ function CardList() {
                 style={{
                   display: "flex",
                   flexDirection: "column",
-                  gap:"5px",
+                  gap:"12px",
                   marginTop: "80px",
                   width: "100%"
                 }}
@@ -35,7 +35,7 @@ function CardList() {
                 <div style={{
                   display: "flex",
                   flexDirection: "row",
-                  justifyContent: "space-between",
+                  justifyContent: "space-evenly",
                   width: "100%"
                 }}>
                 <Card
@@ -75,7 +75,7 @@ function CardList() {
                 <div style={{
                   display: "flex",
                   flexDirection: "row",
-                  justifyContent: "space-between",
+                  justifyContent: "space-evenly",
                   width: "100%"
                 }}>
                 <Card

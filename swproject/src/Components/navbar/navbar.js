@@ -16,15 +16,19 @@ function Navbarx() {
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-             <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
+             <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="/recipes">
                 <FontAwesomeIcon icon={faBook} style={{marginRight: "10px"}} />
                 Recipes
             </Nav.Link>
-            <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
+            <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="/profile">
                 <FontAwesomeIcon icon={faUsers} style={{marginRight: "10px"}} />
                 Profile
             </Nav.Link>
-            <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
+            <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="/signup">
+                <FontAwesomeIcon icon={faUsers} style={{marginRight: "10px"}} />
+                Sign Up
+            </Nav.Link>
+            <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="/logout">
                 <FontAwesomeIcon icon={faUsers} style={{marginRight: "10px"}} />
                 Log out
             </Nav.Link>
