@@ -20,16 +20,16 @@ function Card({ name, image, ingredients, recipeDetails, prepHours, numberOfPeop
         </div>
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", marginTop: "-240px"}}>
           <div className="icons-div icon-div-right">
-            <BiStopwatch size={25} color="aquamarine" />
+            <BiStopwatch size={25} color="black" />
             <p style={{fontSize:"12px",  marginBottom: 0, fontWeight: "bold"}}>{prepHours}</p>
           </div>
           <div className="icons-div icon-div-left">
-            <BsFillPeopleFill size={25} color="aquamarine" />
+            <BsFillPeopleFill size={25} color="black" />
             <p style={{fontSize:"15px", marginBottom: 0, fontWeight: "bold", marginTop: "3px"}}>{numberOfPeople}</p>
           </div>
         </div>
         <div id="card-box-name" class="title">{name}</div>
-        <button id="card-box-button" style={{width: "100%", backgroundColor: "aquamarine", borderColor:"aquamarine"}}>Tarifi Gör</button>
+        <button id="card-box-button" style={{width: "100%", backgroundColor: "black", borderColor:"black", color:"white"}}>Tarifi Gör </button>
       </header>
       <article>
         <ul class="ingredients">

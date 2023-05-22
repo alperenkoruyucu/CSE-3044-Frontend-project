@@ -2,7 +2,10 @@ import './Recipe.css'
 import './Recipe.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import list from './../../recipies.json';
+import CardList from '../../Components/CardList';
 import { useEffect, useState } from 'react';
+
+
 
 function Recipe() {
     console.log('list', list)
@@ -26,6 +29,7 @@ function Recipe() {
                                 Object.values(recipes).map(item => <option value={item.Name} />)
                             }
                         </datalist>
+                        <button class="button-18" role="button">OK</button>
                     </div>
                 </div>
                 <div class="col-12 mt-2">
@@ -39,7 +43,11 @@ function Recipe() {
                                 Object.values(recipes).map(item => <option value={item.MainCategory} />)
                             }
                         </datalist>
+                        <button class="button-18" role="button">OK</button>
+                        <CardList/>                       
+                        
                     </div>
+                    
                 </div>
             </div>
 
