@@ -20,7 +20,7 @@ function Card({ name, image, ingredients, recipeDetails, prepHours, numberOfPeop
         </div>
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", marginTop: "-240px"}}>
           <div className="icons-div icon-div-right">
-            <BiStopwatch size={25} color="black" />
+            <BiStopwatch size={20} color="black" />
             <p style={{fontSize:"12px",  marginBottom: 0, fontWeight: "bold"}}>{prepHours}</p>
           </div>
           <div className="icons-div icon-div-left">

@@ -7,7 +7,7 @@ import './navbar.css';
 
 function Navbarx() {
   return (
-    <Navbar className='navbarcontainer'>
+    <Navbar className='navbarcontainer '>
       <Container>
         <Navbar.Brand style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="#home">
           <FontAwesomeIcon icon={faHome} style={{marginRight: "10px"}} />
@@ -15,7 +15,7 @@ function Navbarx() {
         </Navbar.Brand>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto ">
              <Nav.Link style={{fontFamily:"Times New Roman",fontSize:"18px",paddingRight:"100px"}} href="/recipes">
                 <FontAwesomeIcon icon={faBook} style={{marginRight: "10px"}} />
                 Recipes

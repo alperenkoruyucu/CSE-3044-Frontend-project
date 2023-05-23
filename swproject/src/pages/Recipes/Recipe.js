@@ -15,40 +15,43 @@ function Recipe() {
     }, []);
     console.log("=>", recipes)
     return (
-        <div class="container" style={{ marginTop: 120 }}>
-            <div class="row">
-                <div class="col-12">
+        <div class="container " style={{ marginTop: 120 }}>
+            <div class="row col-12">
+                <div class="input-container col-12 mx-2">
                     <div>
-                    <h1>Fit Eats</h1>
-                        <label>
+                        <header >
+                            <h1 style={{fontSize: 60}}>Fit Eats</h1>
+                        </header>
+                        <label style={{fontSize: 20}}>
                             Choose your Recipe from this list: &nbsp;
-                            <input list="recipies" class="input" name="myIngridients" />
+                            <input list="recipies" class="input" name="myIngridients" placeholder='Choose Receipe'/>
                         </label>
                         <datalist id="recipies">
                             {
                                 Object.values(recipes).map(item => <option value={item.Name} />)
                             }
                         </datalist>
-                        <button class="button-18" role="button">OK</button>
+                        <button class="button-18 mx-1" role="button" >OK</button>
                     </div>
                 </div>
-                <div class="col-12 mt-2">
+                <div class="input-container col-12 mt-2 ">
                     <div>
-                        <label>
-                            Choose your Catagory from this list: &nbsp;
-                            <input list="category" class="input" name="myCategory" />
+                        <label style={{fontSize: 20}}>
+                            Choose your Category from this list: &nbsp;
+                            <input list="category" class="input" name="myCategory" placeholder='Choose Category'/>
                         </label>
                         <datalist id="category">
                             {
                                 Object.values(recipes).map(item => <option value={item.MainCategory} />)
                             }
                         </datalist>
-                        <button class="button-18" role="button">OK</button>
-                        <CardList/>                       
+                        <button class="button-18 mx-1" role="button">OK</button>
                         
+
                     </div>
-                    
+
                 </div>
+                <CardList />
             </div>
 
         </div>
